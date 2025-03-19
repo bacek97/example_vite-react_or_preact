@@ -63,7 +63,7 @@ const renderApp = async () => {
     await import('./index.css');
   } else {
     const loadStyles = () => {
-      return fetch('./index.css')
+      return fetch('./src/index.css')
         .then(r => r.text())
         .then(textContent => {
           const styleElement = document.createElement('style');
