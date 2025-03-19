@@ -1,11 +1,11 @@
 // import { createElement } from "preact";
 // import htm from "htm";
 // const html = htm.bind(createElement);
-import { html, Observer } from '/src/App.js'
+import { html, Observer } from '../App.js'
 
 // import { Observer } from "mobx-preact-super-lite";
 
-import {counterState} from "/src/stores/UserStore.js"
+import {counterState} from "../stores/UserStore.js"
 
 const Counter = () => {
     return html`

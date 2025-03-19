@@ -2,9 +2,9 @@
 // import htm from "htm";
 // const html = htm.bind(createElement);
 
-import { html } from '/src/App.js'
+import { html } from '../App.js'
 
-import {counterState} from "/src/stores/UserStore.js"
+import {counterState} from "../stores/UserStore.js"
 
 const ButtonPlus = () => {
     return html`
