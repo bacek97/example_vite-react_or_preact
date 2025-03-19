@@ -43,7 +43,7 @@ const loadAppModule = async () => {
 };
 
 const renderApp = async () => {
-  const Home = (await import("/src/routes/home.js")).default;
+  const Home = (await import("./routes/home.js")).default;
   render(
     html` <${LocationProvider}>
             <${ErrorBoundary}>
@@ -63,7 +63,7 @@ const renderApp = async () => {
     await import('./index.css');
   } else {
     const loadStyles = () => {
-      return fetch('/src/index.css')
+      return fetch('./index.css')
         .then(r => r.text())
         .then(textContent => {
           const styleElement = document.createElement('style');

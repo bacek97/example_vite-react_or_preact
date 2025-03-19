@@ -1,12 +1,12 @@
-import { html, Fragment } from '/src/App.js'
+import { html, Fragment } from '../App.js'
 
 // import { lazy } from "preact-iso";
-// const Counter = lazy(() => import('/src/components/Counter.js'));
-import Counter from '/src/components/Counter.js';
-import ButtonPlus from '/src/components/ButtonPlus.js';
-import ButtonMinus from '/src/components/ButtonMinus.js';
-// const ButtonPlus = lazy(() => import('/src/components/ButtonPlus.js'));
-// const ButtonMinus = lazy(() => import('/src/components/ButtonMinus.js'));
+// const Counter = lazy(() => import('../components/Counter.js'));
+import Counter from '../components/Counter.js';
+import ButtonPlus from '../components/ButtonPlus.js';
+import ButtonMinus from '../components/ButtonMinus.js';
+// const ButtonPlus = lazy(() => import('../components/ButtonPlus.js'));
+// const ButtonMinus = lazy(() => import('../components/ButtonMinus.js'));
 
 // document.documentElement.classList.toggle(
 //     'dark',
