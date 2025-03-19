@@ -48,7 +48,7 @@ const renderApp = async () => {
     html` <${LocationProvider}>
             <${ErrorBoundary}>
               <${Router}>
-                <${Route} path="/" ...${getRouteProps(Home)} />
+                <${Route} path="/example_vite-react_or_preact/" ...${getRouteProps(Home)} />
               </${Router}>
             </${ErrorBoundary}>
           </${LocationProvider}>
